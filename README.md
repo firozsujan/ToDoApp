@@ -1,28 +1,19 @@
-# ToDoApp
+## ToDoApp
 
-This is the job interview task for software developer position
+# To run the application
+* clone the repository and open as a project 
+* Create a MySql or Postgres Database named "tododb"
+* There will be db dump in the dbDump folder for both Mysql and postgres database
+* Please update application.properties accordingly in the resources folder
+* run the application with mvn wildfly:run
+* application will be run in the below url
+* http://localhost:8080/todoapp/
 
-## What to do
-* Fork the repository
-* After work is done, make a pull request and notify me by email
+## Technologies (userd)
 
-## Task description
-You need to make a Todo app with these requirements:
-1. Page for listing all the todo items
-2. Todo item add and edit forms (separate pages)
-3. Todo item consists of (date, item name and description)
-4. Pages must interact between each other logically. (You can go from list to new or edit and when saving go back to list)
-
-All the other specific requirements are up to you
-
-## Technical requirements
-* Use any frontend framework but Vaadin (https://vaadin.com/) is strongly recommended and would be a huge benefit
-* For backend use Java EE
-* Use any database (Postgres, Oracle, etc.)
-* Make a Maven project
-
-## Main points
-* Structure your code
-* Use best practises
-* Use naming conventions
-* Show understanding of software development concepts
+* Vaadin as frontend framework
+* For backend used Java EE
+* rest api
+* Used Mysql/Postgres database
+* Wildfly(JBoss)
+* Maven
